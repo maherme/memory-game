@@ -1,2 +1,2 @@
-# memory_game
+# memory-game
 Memory game coded using Qt framework.
