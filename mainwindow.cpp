@@ -93,7 +93,7 @@ void MainWindow::discoverdCard(){
 void MainWindow::showImage(){
     QString card_name = cardCurr->objectName();
     QString img = distribution[card_name];
-    cardCurr->setStyleSheet("#" + card_name + "{background-image:url(://" + img + ")}");
+    cardCurr->setStyleSheet("#" + card_name + "{background-image:url(://img/" + img + ")}");
 }
 
 void MainWindow::partialResult(){
